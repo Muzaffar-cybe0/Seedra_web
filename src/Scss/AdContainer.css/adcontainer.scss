@@ -1,0 +1,191 @@
+.AD_container{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 20px;
+     width: 80%;
+     padding: 40px 0px 60px 0px;
+     background-image: url("/src/assets/seeds_desktop.png");
+     background-position: right;
+     background-repeat: no-repeat;
+     background-size: cover;
+     border-radius: 10px;
+     .AD_child-1{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          gap: 10px;
+          .ad_child_1-1{
+               width: 85%;
+               p:nth-child(1){
+                   font-size: 42px;
+                   width: 69%;
+                   font-weight: bold;
+               }
+               p{
+                    width: 65%;
+                    font-size: 17px;
+                    font-weight: 100;
+               }
+          }
+          .ad_child_1-2{
+               width: 85%;
+               display: flex;
+               justify-content: center;
+               align-items: left;
+               flex-direction: column;
+               gap: 10px;
+               div:nth-child(1){
+               display: flex;
+               justify-content: left;
+               align-items: center;
+               gap: 7px;
+                    img{
+                         width: 42px;
+                         object-fit: contain;
+                    }
+                    .price_1{
+                         font-size: 40px;
+                         font-weight: bold;
+                    }
+                    .price_2{
+                        font-size: 22px;
+                        font-weight: bold;
+                        color: gray;
+                        text-decoration: line-through;
+                    }
+                   
+               }
+               div:nth-child(2){
+                    display: flex;
+                    justify-content: left;
+                    align-items: center;
+                    gap: 7px;
+                    button{
+                         font-size: 16px;
+                         padding: 12px 35px;
+                         border-radius: 8px;
+                    }
+                    button:nth-child(1){
+                         color: white;
+                         background-color: rgb(3, 161, 3);
+                         transition: all 0.5s ease-in-out;
+                    }
+                    button:nth-child(1):hover{
+                         background-color: rgb(3, 194, 3);
+                    }
+                    button:nth-child(2){
+                         color:  rgb(3, 161, 3);
+                         background-color: white;
+                         transition: all 0.5s ease-in-out;
+                    }
+                    button:nth-child(2):hover{
+                         box-shadow: 0 0 10px 1px rgb(195, 195, 195);
+                    }
+               }
+          }
+     }
+}
+@media screen  and (max-width: 900px){
+     .AD_container{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 20px;
+          width: 100%;
+          height: 800px;
+          padding: 0px 0px 0px 0px;
+          background-image: url(/src//assets/seeds_responsive.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          border-radius: 20px;
+          position: relative;
+          .AD_child-1{
+               position: absolute;
+               bottom: 40px;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               flex-direction: column;
+               gap: 10px;
+              
+               padding: 0 20px;
+               .ad_child_1-1{
+                    width: 100%;
+                    p:nth-child(1){
+                        font-size: 30px;
+                        width: 100%;
+                        font-weight: bold;
+                    }
+                    p{
+                         width: 90%;
+                         font-size: 17px;
+                         font-weight: 100;
+                    }
+               }
+               .ad_child_1-2{
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: left;
+                    flex-direction: column;
+                    gap: 10px;
+                   
+                    div:nth-child(1){
+                    display: flex;
+                    justify-content: left;
+                    align-items: center;
+                    gap: 10px;
+                    position: absolute;
+                    top: -70px;
+                         img{
+                              width: 42px;
+                              object-fit: contain;
+                         }
+                         .price_1{
+                              font-size: 40px;
+                              font-weight: bold;
+                              color: rgb(232, 81, 81);
+                         }
+                         .price_2{
+                             font-size: 22px;
+                             font-weight: bold;
+                             color: gray;
+                             text-decoration: line-through;
+                         }
+                        
+                    }
+                    div:nth-child(2){
+                         display: flex;
+                         justify-content: left;
+                         align-items: center;
+                         gap: 7px;
+                         button{
+                              font-size: 16px;
+                              padding: 12px 35px;
+                              border-radius: 8px;
+                              border: none;
+                         }
+                         button:nth-child(1){
+                              color: white;
+                              background-color: rgb(3, 161, 3);
+                              transition: all 0.5s ease-in-out;
+                         }
+                         button:nth-child(1):hover{
+                              background-color: rgb(3, 194, 3);
+                         }
+                         button:nth-child(2){
+                              color:  rgb(3, 161, 3);
+                              background-color: white;
+                              transition: all 0.5s ease-in-out;
+                         }
+                         button:nth-child(2):hover{
+                              box-shadow: 0 0 10px 1px rgb(195, 195, 195);
+                         }
+                    }
+               }
+          }
+     } 
+}

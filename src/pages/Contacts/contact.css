@@ -1,0 +1,503 @@
+.contact {
+  max-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.lettuce_1-row {
+  width: 82%;
+  padding: 55px 40px;
+  border-radius: 24px;
+  background-color: #eaf1eb;
+  background-image: url(/src/assets/lettuce.png);
+  background-position: right bottom;
+  background-size: 220px;
+  background-repeat: no-repeat;
+}
+.lettuce_1-row p {
+  width: 50%;
+  font-size: 45px;
+  font-weight: bold;
+  line-height: 55px;
+}
+
+.Details_C {
+  width: 82%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-direction: column;
+}
+.Details_C .details_child-1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.Details_C .details_child-1 p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+}
+.Details_C .details_child-1 div {
+  width: 100%;
+  height: 1px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid rgb(230, 230, 230);
+}
+.Details_C .details_child-2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.Details_C .details_child-2 .children_of_D-child2_child-1 {
+  width: 160%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+}
+.Details_C .details_child-2 .children_of_D-child2_child-1 div:nth-child(1) p {
+  font-size: 16px;
+  font-weight: 100;
+}
+.Details_C .details_child-2 .children_of_D-child2_child-1 div:nth-child(2) {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.Details_C .details_child-2 .children_of_D-child2_child-1 div:nth-child(2) img {
+  width: 725px;
+}
+.Details_C .details_child-2 .children_of_D-child2_child-1 div:nth-child(3) {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.Details_C .details_child-2 .children_of_D-child2_child-1 div:nth-child(3) h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.Details_C .details_child-2 .children_of_D-child2_child-1 div:nth-child(3) p {
+  font-size: 16px;
+  font-weight: 100;
+}
+.Details_C .details_child-2 .children_of_D-child2_child-2 {
+  display: flex;
+  justify-content: unset;
+  align-items: unset;
+  flex-direction: column;
+  gap: 10px;
+}
+.Details_C .details_child-2 .children_of_D-child2_child-2 div:nth-child(1) {
+  font-size: 25px;
+  font-weight: bold;
+}
+.Details_C .details_child-2 .children_of_D-child2_child-2 div:nth-child(2) {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background-color: #eff2f8;
+  padding: 25px 20px;
+  border-radius: 10px;
+  padding-bottom: 300px;
+  background-image: url(/src/assets/female-gardener-holding-wicker-basket-with-strawberries\ 1.png);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 250px;
+}
+.Details_C .details_child-2 .children_of_D-child2_child-2 div:nth-child(2) p:nth-child(1) {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: gray;
+}
+.Details_C .details_child-2 .children_of_D-child2_child-2 div:nth-child(2) p:nth-child(2) {
+  width: 90%;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 30px;
+}
+.Details_C .details_child-2 .children_of_D-child2_child-2 div:nth-child(2) p:nth-child(3) {
+  width: 100%;
+  font-size: 16px;
+  color: gray;
+}
+.Details_C .details_child-2 .children_of_D-child2_child-2 div:nth-child(2) button {
+  width: 35%;
+  height: 45px;
+  border-radius: 5px;
+  color: rgb(3, 155, 3);
+  background-color: white;
+  transition: all 0.5s ease-in-out;
+}
+.Details_C .details_child-2 .children_of_D-child2_child-2 div:nth-child(2) button:hover {
+  box-shadow: 0 0 10px 1px rgb(228, 228, 228);
+}
+.Details_C .details_child-2 .children_of_D-child2_child-2 div:nth-child(3) {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: rgba(53, 151, 64, 0.0784313725);
+  padding: 25px 20px;
+  border-radius: 10px;
+  padding-bottom: 300px;
+  background-image: url(/src/assets/young-pretty-woman.png);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 250px;
+}
+.Details_C .details_child-2 .children_of_D-child2_child-2 div:nth-child(3) p:nth-child(1) {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: gray;
+}
+.Details_C .details_child-2 .children_of_D-child2_child-2 div:nth-child(3) p:nth-child(2) {
+  width: 90%;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 30px;
+}
+.Details_C .details_child-2 .children_of_D-child2_child-2 div:nth-child(3) p:nth-child(3) {
+  width: 100%;
+  font-size: 16px;
+  color: gray;
+}
+.Details_C .details_child-2 .children_of_D-child2_child-2 div:nth-child(3) button {
+  width: 35%;
+  height: 45px;
+  border-radius: 5px;
+  color: rgb(3, 155, 3);
+  background-color: white;
+  transition: all 0.5s ease-in-out;
+}
+.Details_C .details_child-2 .children_of_D-child2_child-2 div:nth-child(3) button:hover {
+  box-shadow: 0 0 10px 1px rgb(228, 228, 228);
+}
+.Details_C .details_child-3 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: green;
+  padding: 30px;
+  border-radius: 12px;
+}
+.Details_C .details_child-3 div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  line-height: 25px;
+}
+.Details_C .details_child-3 div:nth-child(1) p:nth-child(1) {
+  font-size: 16px;
+  color: white;
+}
+.Details_C .details_child-3 div:nth-child(1) p:nth-child(2) {
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+.Details_C .details_child-3 div:nth-child(2) {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.Details_C .details_child-3 div:nth-child(2) i {
+  transition: all 0.5s ease-in-out;
+}
+.Details_C .details_child-3 div:nth-child(2) i:hover {
+  transform: scale(1.1);
+  cursor: alias;
+}
+.Details_C .details_child-3 div:nth-child(2) i:nth-child(1) {
+  background-color: white;
+  color: green;
+  padding: 10px 14px;
+  border-radius: 50px;
+  font-size: 20px;
+}
+.Details_C .details_child-3 div:nth-child(2) i:nth-child(2) {
+  background-color: white;
+  color: green;
+  padding: 10px 10px;
+  border-radius: 50px;
+  font-size: 20px;
+}
+.Details_C .details_child-3 div:nth-child(2) i:nth-child(3) {
+  background-color: white;
+  color: green;
+  padding: 10px 13px;
+  border-radius: 50px;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 980px) {
+  .contact {
+    max-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    padding: 0 15px;
+  }
+  .lettuce_1-row {
+    width: 100%;
+    padding: 25px 30px;
+    border-radius: 24px;
+    background-color: #eaf1eb;
+    background-image: url(/src/assets/lettuce.png);
+    background-position: right bottom;
+    background-size: 170px;
+    background-repeat: no-repeat;
+    padding-bottom: 140px;
+  }
+  .lettuce_1-row p {
+    width: 100%;
+    font-size: 27px;
+    font-weight: bold;
+    line-height: 35px;
+  }
+  .Details_C {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .Details_C .details_child-1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  }
+  .Details_C .details_child-1 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+  }
+  .Details_C .details_child-1 div {
+    width: 100%;
+    height: 1px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgb(230, 230, 230);
+  }
+  .Details_C .details_child-2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .Details_C .details_child-2 .children_of_D-child2_child-1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+  }
+  .Details_C .details_child-2 .children_of_D-child2_child-1 div:nth-child(1) p {
+    font-size: 17px;
+    font-weight: 100;
+  }
+  .Details_C .details_child-2 .children_of_D-child2_child-1 div:nth-child(2) {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  .Details_C .details_child-2 .children_of_D-child2_child-1 div:nth-child(2) img {
+    width: 725px;
+  }
+  .Details_C .details_child-2 .children_of_D-child2_child-1 div:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .Details_C .details_child-2 .children_of_D-child2_child-1 div:nth-child(3) h1 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .Details_C .details_child-2 .children_of_D-child2_child-1 div:nth-child(3) p {
+    font-size: 17px;
+    font-weight: 100;
+  }
+  .Details_C .details_child-2 .children_of_D-child2_child-2 {
+    display: flex;
+    justify-content: unset;
+    align-items: unset;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .Details_C .details_child-2 .children_of_D-child2_child-2 div:nth-child(1) {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .Details_C .details_child-2 .children_of_D-child2_child-2 div:nth-child(2) {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background-color: #eff2f8;
+    padding: 25px 20px;
+    border-radius: 10px;
+    padding-bottom: 300px;
+    background-image: url(/src/assets/female-gardener-holding-wicker-basket-with-strawberries\ 1.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 250px;
+  }
+  .Details_C .details_child-2 .children_of_D-child2_child-2 div:nth-child(2) p:nth-child(1) {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: gray;
+  }
+  .Details_C .details_child-2 .children_of_D-child2_child-2 div:nth-child(2) p:nth-child(2) {
+    width: 90%;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 30px;
+  }
+  .Details_C .details_child-2 .children_of_D-child2_child-2 div:nth-child(2) p:nth-child(3) {
+    width: 100%;
+    font-size: 16px;
+    color: gray;
+  }
+  .Details_C .details_child-2 .children_of_D-child2_child-2 div:nth-child(2) button {
+    width: 35%;
+    height: 45px;
+    border-radius: 5px;
+    color: rgb(3, 155, 3);
+    background-color: white;
+    transition: all 0.5s ease-in-out;
+  }
+  .Details_C .details_child-2 .children_of_D-child2_child-2 div:nth-child(2) button:hover {
+    box-shadow: 0 0 10px 1px rgb(228, 228, 228);
+  }
+  .Details_C .details_child-2 .children_of_D-child2_child-2 div:nth-child(3) {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgba(53, 151, 64, 0.0784313725);
+    padding: 25px 20px;
+    border-radius: 10px;
+    padding-bottom: 300px;
+    background-image: url(/src/assets/young-pretty-woman.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 250px;
+  }
+  .Details_C .details_child-2 .children_of_D-child2_child-2 div:nth-child(3) p:nth-child(1) {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: gray;
+  }
+  .Details_C .details_child-2 .children_of_D-child2_child-2 div:nth-child(3) p:nth-child(2) {
+    width: 90%;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 30px;
+  }
+  .Details_C .details_child-2 .children_of_D-child2_child-2 div:nth-child(3) p:nth-child(3) {
+    width: 100%;
+    font-size: 16px;
+    color: gray;
+  }
+  .Details_C .details_child-2 .children_of_D-child2_child-2 div:nth-child(3) button {
+    width: 35%;
+    height: 45px;
+    border-radius: 5px;
+    color: rgb(3, 155, 3);
+    background-color: white;
+    transition: all 0.5s ease-in-out;
+  }
+  .Details_C .details_child-2 .children_of_D-child2_child-2 div:nth-child(3) button:hover {
+    box-shadow: 0 0 10px 1px rgb(228, 228, 228);
+  }
+  .Details_C .details_child-3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 12px;
+    gap: 20px;
+  }
+  .Details_C .details_child-3 div:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 30px;
+  }
+  .Details_C .details_child-3 div:nth-child(1) p:nth-child(1) {
+    font-size: 16px;
+    color: white;
+    font-weight: 100;
+  }
+  .Details_C .details_child-3 div:nth-child(1) p:nth-child(2) {
+    font-size: 25px;
+    font-weight: 100;
+    color: white;
+  }
+  .Details_C .details_child-3 div:nth-child(2) {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .Details_C .details_child-3 div:nth-child(2) i {
+    transition: all 0.5s ease-in-out;
+  }
+  .Details_C .details_child-3 div:nth-child(2) i:hover {
+    transform: scale(1.1);
+    cursor: alias;
+  }
+  .Details_C .details_child-3 div:nth-child(2) i:nth-child(1) {
+    background-color: white;
+    color: green;
+    padding: 10px 14px;
+    border-radius: 50px;
+    font-size: 20px;
+  }
+  .Details_C .details_child-3 div:nth-child(2) i:nth-child(2) {
+    background-color: white;
+    color: green;
+    padding: 10px 10px;
+    border-radius: 50px;
+    font-size: 20px;
+  }
+  .Details_C .details_child-3 div:nth-child(2) i:nth-child(3) {
+    background-color: white;
+    color: green;
+    padding: 10px 13px;
+    border-radius: 50px;
+    font-size: 20px;
+  }
+}/*# sourceMappingURL=contact.css.map */

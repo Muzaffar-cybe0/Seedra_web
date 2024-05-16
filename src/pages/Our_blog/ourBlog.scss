@@ -1,0 +1,558 @@
+.ourBlog {
+  max-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.Welcome_blog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+  background-image: url(/src//assets//our_blog_first_row.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 60px;
+  border-radius: 20px;
+  p:nth-child(1) {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  p:nth-child(2) {
+    text-align: center;
+    width: 60%;
+    font-size: 17px;
+    font-weight: 100;
+  }
+}
+.angry-grid2 {
+  width: 81%;   
+  display: grid;
+
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+
+  gap: 10px;
+  height: 100%;
+ div{
+     border-radius: 10px;
+ }
+  #item-0 {
+    background-color: #EAF1EB;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: 3;
+    grid-column-end: 5;
+    padding: 25px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-image: url(/src/assets/qulupnay.png);
+    background-position: right -10px top 0px;
+    background-repeat: no-repeat;
+    background-size: 350px;
+    div:nth-child(1){
+     p:nth-child(1){
+          color: gray;
+     }
+     p:nth-child(2){
+          width: 70%;
+          color: rgb(0, 0, 0);
+          font-size: 25px;
+          font-weight: bold;
+     }
+    }
+    div:nth-child(2){
+     p{
+          width: 65%;
+          color: gray;
+     }
+    }
+    div:nth-child(3){
+     button{
+          background-color: white;
+          color: rgb(1, 135, 1);
+          padding: 13px 40px;
+          border-radius: 7px;
+          font-weight: bold;
+          transition: all 0.5s ease-in-out;
+     }
+     button:hover{
+      box-shadow: 0 0 10px 1px rgb(222, 222, 222);
+     }
+    }
+  }
+  #item-1 {
+    background-color:#35974014;
+    grid-row-start: 1;
+    grid-column-start: 5;
+    padding: 25px 25px;
+    grid-row-end: 3;
+    grid-column-end: 7;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-image: url(/src/assets/ferma.png);
+    background-position: right  bottom 0px;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    div:nth-child(1){
+     p:nth-child(1){
+          color: gray;
+     }
+     p:nth-child(2){
+          width: 90%;
+          color: rgb(0, 0, 0);
+          font-size: 25px;
+          font-weight: bold;
+     }
+    }
+    div:nth-child(2){
+     display: none;
+     p{
+          width: 100%;
+          color: gray;
+     }
+    }
+    div:nth-child(3){
+     button{
+          background-color: white;
+          color: rgb(1, 135, 1);
+          padding: 13px 40px;
+          border-radius: 7px;
+          font-weight: bold;
+          transition: all 0.5s ease-in-out;
+     }
+     button:hover{
+      box-shadow: 0 0 10px 1px rgb(222, 222, 222);
+     }
+    }
+  }
+  #item-2 {
+    background-color: #35974014;
+    grid-row-start: 3;
+    grid-column-start: 1;
+    grid-row-end: 7;
+    grid-column-end: 3;
+    padding: 25px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-image: url(/src/assets/pretty-arab-woman-smiling-happily-with-hand-hip-confident-holding-potted-cactus\ 1.png);
+    background-position: right bottom 0px;
+    background-repeat: no-repeat;
+    background-size: 244px;
+    div:nth-child(1){
+     p:nth-child(1){
+          color: gray;
+     }
+     p:nth-child(2){
+          width: 90%;
+          color: rgb(0, 0, 0);
+          font-size: 25px;
+          font-weight: bold;
+     }
+    }
+    div:nth-child(2){
+     p{
+          width: 100%;
+          color: gray;
+     }
+    }
+    div:nth-child(3){
+     button{
+          background-color: white;
+          color: rgb(1, 135, 1);
+          padding: 13px 40px;
+          border-radius: 7px;
+          font-weight: bold;
+          transition: all 0.5s ease-in-out;
+     }
+     button:hover{
+      box-shadow: 0 0 10px 1px rgb(222, 222, 222);
+     }
+    }
+  }
+  #item-3 {
+    background-color: #EFF2F8;
+    grid-row-start: 3;
+    grid-column-start: 3;
+
+    grid-row-end: 7;
+    grid-column-end: 5;
+    padding: 25px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-image: url(/src/assets/uzum.png);
+    background-position: right bottom 0px;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    div:nth-child(1){
+     p:nth-child(1){
+          color: gray;
+     }
+     p:nth-child(2){
+          width: 90%;
+          color: rgb(0, 0, 0);
+          font-size: 25px;
+          font-weight: bold;
+     }
+    }
+    div:nth-child(2){
+     p{
+          width: 100%;
+          color: gray;
+     }
+    }
+    div:nth-child(3){
+     button{
+          background-color: white;
+          color: rgb(1, 135, 1);
+          padding: 13px 40px;
+          border-radius: 7px;
+          font-weight: bold;
+          transition: all 0.5s ease-in-out;
+     }
+     button:hover{
+      box-shadow: 0 0 10px 1px rgb(222, 222, 222);
+     }
+    }
+  }
+  #item-4 {
+    background-color: #35974014;
+    grid-row-start: 3;
+    grid-column-start: 5;
+
+    grid-row-end: 7;
+    grid-column-end: 7;
+    padding: 25px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-image: url(/src/assets/young-pretty-woman.png);
+    background-position: right bottom 0px;
+    background-repeat: no-repeat;
+    background-size: 265px;
+    div:nth-child(1){
+     p:nth-child(1){
+          color: gray;
+     }
+     p:nth-child(2){
+          width: 90%;
+          color: rgb(0, 0, 0);
+          font-size: 25px;
+          font-weight: bold;
+     }
+    }
+    div:nth-child(2){
+     p{
+          width: 100%;
+          color: gray;
+     }
+    }
+    div:nth-child(3){
+     button{
+          background-color: white;
+          color: rgb(1, 135, 1);
+          padding: 13px 40px;
+          border-radius: 7px;
+          font-weight: bold;
+          transition: all 0.5s ease-in-out;
+     }
+     button:hover{
+      box-shadow: 0 0 10px 1px rgb(222, 222, 222);
+     }
+    }
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .ourBlog {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0px 15px;
+  }
+  .Welcome_blog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    background-image: url(/src//assets/our_blog_responsive_first_row.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    border: 1px solid red;
+    border-radius: 20px;
+    p:nth-child(1) {
+      font-size: 25px;
+      font-weight: bold;
+    }
+    p:nth-child(2) {
+      text-align: center;
+      width: 90%;
+      font-size: 14px;
+      font-weight: 100;
+    }
+  }
+  .angry-grid2 {
+     width: 100%;   
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     gap: 15px;
+   
+     gap: 10px;
+     height: 100%;
+    div{
+        border-radius: 10px;
+    }
+     #item-0 {
+       background-color: #EAF1EB;
+       grid-row-start: 1;
+       grid-column-start: 1;
+       grid-row-end: 3;
+       grid-column-end: 5;
+       padding: 20px;
+       display: flex;
+       flex-direction: column;
+       gap: 10px;
+       background-image: url(/src/assets/qulupnay2.png);
+       background-position: right bottom;
+       background-repeat: no-repeat;
+       background-size: 280px;
+       padding-bottom: 210px;
+       div:nth-child(1){
+        p:nth-child(1){
+             color: gray;
+        }
+        p:nth-child(2){
+             width: 100%;
+             color: rgb(0, 0, 0);
+             font-size: 25px;
+             font-weight: bold;
+        }
+       }
+       div:nth-child(2){
+        p{ font-size: 18px;
+             width: 85%;
+             color: gray;
+        }
+       }
+       div:nth-child(3){
+        button{
+             background-color: white;
+             color: rgb(1, 135, 1);
+             padding: 15px 45px;
+             border-radius: 7px;
+             font-weight: bold;
+             transition: all 0.5s ease-in-out;
+        }
+        button:hover{
+         box-shadow: 0 0 10px 1px rgb(222, 222, 222);
+        }
+       }
+     }
+     #item-1 {
+       background-color:#EFF2F8;
+       grid-row-start: 1;
+       grid-column-start: 5;
+       padding: 25px 25px;
+       grid-row-end: 3;
+       grid-column-end: 7;
+       display: flex;
+       flex-direction: column;
+       gap: 15px;
+       background-image: url(/src/assets/ferma2.png);
+       background-position: right  bottom 0px;
+       background-repeat: no-repeat;
+       background-size: 190px;
+       padding-bottom: 220px;
+       div:nth-child(1){
+        p:nth-child(1){
+             color: gray;
+        }
+        p:nth-child(2){
+             width: 100%;
+             color: rgb(0, 0, 0);
+             font-size: 25px;
+             font-weight: bold;
+        }
+       }
+       div:nth-child(2){
+          display: block;
+          p{
+               font-size: 18px;
+               width: 100%;
+               color: gray;
+          }
+         }
+       div:nth-child(3){
+        button{
+             background-color: white;
+             color: rgb(1, 135, 1);
+             padding: 15px 45px;
+             border-radius: 7px;
+             font-weight: bold;
+             transition: all 0.5s ease-in-out;
+        }
+        button:hover{
+         box-shadow: 0 0 10px 1px rgb(222, 222, 222);
+        }
+       }
+     }
+     #item-2 {
+       background-color: #35974014;
+       grid-row-start: 3;
+       grid-column-start: 1;
+       grid-row-end: 7;
+       grid-column-end: 3;
+       padding: 25px 20px;
+       display: flex;
+       flex-direction: column;
+       gap: 15px;
+       background-image: url(/src/assets/pretty-arab-woman-smiling-happily-with-hand-hip-confident-holding-potted-cactus2.png);
+       background-position: right bottom 0px;
+       background-repeat: no-repeat;
+       background-size: 235px;
+       padding-bottom: 210px;
+       div:nth-child(1){
+        p:nth-child(1){
+             color: gray;
+        }
+        p:nth-child(2){
+             width: 100%;
+             color: rgb(0, 0, 0);
+             font-size: 25px;
+             font-weight: bold;
+        }
+       }
+       div:nth-child(2){
+        p{
+            font-size: 18px;
+             width: 85%;
+             color: gray;
+        }
+       }
+       div:nth-child(3){
+        button{
+             background-color: white;
+             color: rgb(1, 135, 1);
+             padding: 15px 45px;
+             border-radius: 7px;
+             font-weight: bold;
+             transition: all 0.5s ease-in-out;
+        }
+        button:hover{
+         box-shadow: 0 0 10px 1px rgb(222, 222, 222);
+        }
+       }
+     }
+     #item-3 {
+       background-color: #EFF2F8;
+       grid-row-start: 3;
+       grid-column-start: 3;
+   
+       grid-row-end: 7;
+       grid-column-end: 5;
+       padding: 25px 20px;
+       display: flex;
+       flex-direction: column;
+       gap: 15px;
+       background-image: url(/src/assets/uzum2.png);
+       background-position: right bottom;
+       background-repeat: no-repeat;
+       background-size: 260px;
+       padding-bottom: 210px;
+       div:nth-child(1){
+        p:nth-child(1){
+             color: gray;
+        }
+        p:nth-child(2){
+             width: 100%;
+             color: rgb(0, 0, 0);
+             font-size: 25px;
+             font-weight: bold;
+        }
+       }
+       div:nth-child(2){
+        p{   
+             font-size: 18px;
+             width: 85%;
+             color: gray;
+        }
+       }
+       div:nth-child(3){
+        button{
+             background-color: white;
+             color: rgb(1, 135, 1);
+             padding: 15px 45px;
+             border-radius: 7px;
+             font-weight: bold;
+             transition: all 0.5s ease-in-out;
+        }
+        button:hover{
+         box-shadow: 0 0 10px 1px rgb(222, 222, 222);
+        }
+       }
+     }
+     #item-4 {
+       background-color:  #35974014;
+       grid-row-start: 3;
+       grid-column-start: 5;
+   
+       grid-row-end: 7;
+       grid-column-end: 7;
+       padding: 20px;
+       display: flex;
+       flex-direction: column;
+       gap: 15px;
+       background-image: url(/src/assets/young-pretty-woman.png);
+       background-position: right bottom 0px;
+       background-repeat: no-repeat;
+       background-size: 235px;
+       padding-bottom: 250px;
+       div:nth-child(1){
+        p:nth-child(1){
+             color: gray;
+        }
+        p:nth-child(2){
+             width: 100%;
+             color: rgb(0, 0, 0);
+             font-size: 25px;
+             font-weight: bold;
+        }
+       }
+       div:nth-child(2){
+        p{
+             width: 80%;
+             color: gray;
+        }
+       }
+       div:nth-child(3){
+        button{
+             background-color: white;
+             color: rgb(1, 135, 1);
+             padding: 15px 45px;
+             border-radius: 7px;
+             font-weight: bold;
+             transition: all 0.5s ease-in-out;
+        }
+        button:hover{
+         box-shadow: 0 0 10px 1px rgb(222, 222, 222);
+        }
+       }
+     }
+   }
+}
