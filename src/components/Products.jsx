@@ -165,15 +165,6 @@ export default function Products() {
                   <p>Chamomile</p>
                   <p>Chervil</p>
                 </div>
-
-                <div>
-                  <p>Calendula</p>
-                  <p>Caraway</p>
-                  <p>Catmint</p>
-                  <p>Catnip</p>
-                  <p>Chamomile</p>
-                  <p>Chervil</p>
-                </div>
               </div>
               <div className="downpart1_child-3">
                 <p>View All</p>
@@ -210,14 +201,7 @@ export default function Products() {
                   <p>Chervil</p>
                 </div>
 
-                <div>
-                  <p>Calendula</p>
-                  <p>Caraway</p>
-                  <p>Catmint</p>
-                  <p>Catnip</p>
-                  <p>Chamomile</p>
-                  <p>Chervil</p>
-                </div>
+                
               </div>
               <div className="downpart1_child-3">
                 <p>View Bundles</p>
@@ -255,14 +239,6 @@ export default function Products() {
                   <p>Chervil</p>
                 </div>
 
-                <div>
-                  <p>Calendula</p>
-                  <p>Caraway</p>
-                  <p>Catmint</p>
-                  <p>Catnip</p>
-                  <p>Chamomile</p>
-                  <p>Chervil</p>
-                </div>
               </div>
               <div className="downpart1_child-3">
                 <p>View Herbs</p>
@@ -289,15 +265,6 @@ export default function Products() {
                   <p>basil</p>
                   <p>beel balm</p>
                   <p>barage</p>
-                </div>
-
-                <div>
-                  <p>Calendula</p>
-                  <p>Caraway</p>
-                  <p>Catmint</p>
-                  <p>Catnip</p>
-                  <p>Chamomile</p>
-                  <p>Chervil</p>
                 </div>
 
                 <div>
@@ -343,15 +310,6 @@ export default function Products() {
                   <p>Chamomile</p>
                   <p>Chervil</p>
                 </div>
-
-                <div>
-                  <p>Calendula</p>
-                  <p>Caraway</p>
-                  <p>Catmint</p>
-                  <p>Catnip</p>
-                  <p>Chamomile</p>
-                  <p>Chervil</p>
-                </div>
               </div>
               <div className="downpart1_child-3">
                 <p>View Fruits</p>
@@ -387,15 +345,6 @@ export default function Products() {
                   <p>Chamomile</p>
                   <p>Chervil</p>
                 </div>
-
-                <div>
-                  <p>Calendula</p>
-                  <p>Caraway</p>
-                  <p>Catmint</p>
-                  <p>Catnip</p>
-                  <p>Chamomile</p>
-                  <p>Chervil</p>
-                </div>
               </div>
               <div className="downpart1_child-3">
                 <p>View Supplies</p>
@@ -421,15 +370,6 @@ export default function Products() {
                   <p>basil</p>
                   <p>beel balm</p>
                   <p>barage</p>
-                </div>
-
-                <div>
-                  <p>Calendula</p>
-                  <p>Caraway</p>
-                  <p>Catmint</p>
-                  <p>Catnip</p>
-                  <p>Chamomile</p>
-                  <p>Chervil</p>
                 </div>
 
                 <div>

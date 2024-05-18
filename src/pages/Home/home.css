@@ -943,19 +943,19 @@
     box-shadow: 0 0 10px 2px rgb(209, 209, 209);
   }
   .products .products-1 .product_1-2 .downpart_1 {
-    z-index: 99;
     display: flex;
     flex-direction: column;
     gap: 20px;
     position: absolute;
     background-color: white;
-    padding: 10px 40px;
+    padding: 10px 0px;
     border-radius: 10px;
     opacity: 0;
     overflow: hidden;
     height: 0%;
     transition: all 0.5s ease-in-out;
     box-shadow: 0 0 10px 1px rgb(223, 223, 223);
+    z-index: 99;
   }
   .products .products-1 .product_1-2 .downpart_1 .downpart1_child-1 p {
     width: 100%;
@@ -964,7 +964,7 @@
   }
   .products .products-1 .product_1-2 .downpart_1 .downpart1_child-2 {
     display: flex;
-    gap: 20px;
+    gap: 1px;
     border-bottom: 1px solid rgb(219, 219, 219);
     padding-bottom: 20px;
   }
@@ -974,7 +974,7 @@
     gap: 20px;
   }
   .products .products-1 .product_1-2 .downpart_1 .downpart1_child-2 div:nth-child(1) p {
-    width: 140%;
+    width: 100%;
     text-transform: capitalize;
     font-size: 16px;
     font-weight: 100;
@@ -985,17 +985,6 @@
     gap: 20px;
   }
   .products .products-1 .product_1-2 .downpart_1 .downpart1_child-2 div:nth-child(2) p {
-    width: 100%;
-    text-transform: capitalize;
-    font-size: 16px;
-    font-weight: 100;
-  }
-  .products .products-1 .product_1-2 .downpart_1 .downpart1_child-2 div:nth-child(3) {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
-  .products .products-1 .product_1-2 .downpart_1 .downpart1_child-2 div:nth-child(3) p {
     width: 100%;
     text-transform: capitalize;
     font-size: 16px;
