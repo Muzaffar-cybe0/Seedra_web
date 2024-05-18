@@ -1,7 +1,7 @@
 import React from "react";
 export default function Blog() {
   return (
-    <div class="angry-grid">
+    <div className="angry-grid">
       <div className="item-0">
         <p>Our blog.</p>
         <button type="button">Go to our blog</button>
